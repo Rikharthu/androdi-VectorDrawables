@@ -1,0 +1,7 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="6000"
+        android:propertyName="fillColor"
+        android:valueFrom="#FFFFFF00"
+        android:valueTo="#FFFF0000"/>
+</set>

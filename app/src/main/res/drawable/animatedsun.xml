@@ -1,0 +1,19 @@
+<!-- Combines VectorDrawable with ObjectAnimators to create AnimatedVectorDrawable -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:drawable="@drawable/sun" >
+
+    <!-- name - android:name of <target> or <group> in VectorDrawable's XML -->
+    <!-- animation - link to ObjectAnimator .xml -->
+    <target
+        android:name="sun"
+        android:animation="@anim/rotation" />
+
+    <target
+        android:name="earth"
+        android:animation="@anim/rotation"  />
+
+    <target
+        android:name="sun_path"
+        android:animation="@anim/sun_color"  />
+
+</animated-vector>
